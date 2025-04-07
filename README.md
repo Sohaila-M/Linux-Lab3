@@ -29,20 +29,34 @@
 
 10. Delete the supplementary group called badgroup   ![image](https://github.com/user-attachments/assets/0b842311-e63e-4dbf-ac16-3d6ab6a69c10)
 
-11. Create a folder called myteam in your home directory and change its permissions to read only for the owner.
-15. Log out and log in by another user
-16. Try to access (by cd command) the folder (myteam)
-17. Using the command Line
+11. Create a folder called myteam in your home directory and change its permissions to read only for the owner. ![image](https://github.com/user-attachments/assets/95fa8946-7f12-4727-9539-04d374a6a12d)
+
+12. Log out and log in by another user ![image](https://github.com/user-attachments/assets/c2fdb03b-9370-43d1-8e2c-d95b227d0e43)
+
+13. Try to access (by cd command) the folder (myteam) ![image](https://github.com/user-attachments/assets/e1aa058b-53d7-47d9-aa84-795735fe92fd)
+
+14. Using the command Line
     • Change the permissions of oldpasswd file to give owner read and write permissions and for group write and execute and execute only for the others (using chmod in 2 different ways)
-    • Change your default permissions to be as above.
+    ![image](https://github.com/user-attachments/assets/84f32073-b83e-41fa-9d09-74e3cec4ddec)
+
+    • Change your default permissions to be as above. ![image](https://github.com/user-attachments/assets/a594fe40-152d-4042-a28c-a5c0af0792bd)
+
     • What is the maximum permission a file can have, by default when it is just created? And what is that for directory.
+       Maximum (default) permission for file : 666
+       Maximum (default) permission for directory : 777
     • Change your default permissions to be no permission to everyone then create a directory and a file to verify.
-18. Starting from your home directory, find all files that were modified in the last two day.
-19. Starting from /etc, find files owned by root user.
-20. Find all directories in your home directory.
-21. Write a command to search for all files on the system that, its name is ".profile".
-22. Identify the file types of the following: /etc/passwd, /dev/pts/0, /etc, /dev/sda
-23. List the inode numbers of /, /etc, /etc/hosts.
-24. Copy /etc/passwd to your home directory, use the commands diff and cmp, and Edit in the file you copied, and then use these commands again, and check the output.
-25. Create a symbolic link of /etc/passwd in /boot.
-26. Create a hard link of /etc/passwd in /boot. Could you? Why?
+16. Starting from your home directory, find all files that were modified in the last two day. ![image](https://github.com/user-attachments/assets/3e7688b6-9810-474e-b079-cacbdbb83406)
+
+17. Starting from /etc, find files owned by root user. ![image](https://github.com/user-attachments/assets/817ee949-ffd3-49b7-99c6-f55c87ef6f03)
+
+18. Find all directories in your home directory. ![image](https://github.com/user-attachments/assets/8b2dc0e2-ac9c-4723-bf81-335bf7b895ac)
+
+19. Write a command to search for all files on the system that, its name is ".profile". ![image](https://github.com/user-attachments/assets/4e9e2367-f224-4199-bf5f-aa5268e4ef8f)
+
+20. Identify the file types of the following: /etc/passwd, /dev/pts/0, /etc, /dev/sda  ![image](https://github.com/user-attachments/assets/646c76d9-f451-49af-aee5-4597eeaf3505)
+
+21. List the inode numbers of /, /etc, /etc/hosts.  ![image](https://github.com/user-attachments/assets/91861b23-4ea2-46e4-9902-96fe3d17938a)
+
+22. Copy /etc/passwd to your home directory, use the commands diff and cmp, and Edit in the file you copied, and then use these commands again, and check the output.
+23. Create a symbolic link of /etc/passwd in /boot.
+24. Create a hard link of /etc/passwd in /boot. Could you? Why?
