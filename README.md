@@ -14,9 +14,11 @@
 3. Create a supplementary (Secondary) group called pgroup with group ID of 30000
   ![image](https://github.com/user-attachments/assets/d9acb776-0f12-472b-bff4-86d939ae8182)
 
-4. Create a supplementary group called badgroup ![image](https://github.com/user-attachments/assets/140a77d3-b890-4cc3-b51c-1a08333b8c3a)
+4. Create a supplementary group called badgroup
+    ![image](https://github.com/user-attachments/assets/140a77d3-b890-4cc3-b51c-1a08333b8c3a)
 
-8. Add islam user to the pgroup group as a supplementary group
+5. Add islam user to the pgroup group as a supplementary group ![image](https://github.com/user-attachments/assets/f4ef7770-16fa-4813-bb4b-a1009a73eace)
+
 9. Modify the password of islam's account to password
 10. Modify islam's account so the password expires after 30 days
 11. Lock bad user account so he can't log in
