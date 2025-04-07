@@ -21,13 +21,15 @@
 
 6. Modify the password of islam's account to password ![image](https://github.com/user-attachments/assets/256ee1d3-a038-4162-a4c6-0c95fc157474)
 
-7. Modify islam's account so the password expires after 30 days
+7. Modify islam's account so the password expires after 30 days ![image](https://github.com/user-attachments/assets/63f5cf9e-84b5-4991-9835-8f84022f0516)
+
 8. Lock bad user account so he can't log in ![image](https://github.com/user-attachments/assets/0318fc01-dff2-4dbe-be0d-cc6129afe6db)
 
 9. Delete bad user account ![image](https://github.com/user-attachments/assets/c1a5e42c-0498-45d6-b1ad-47e16877d90c)
 
-10. Delete the supplementary group called badgroup
-14. Create a folder called myteam in your home directory and change its permissions to read only for the owner.
+10. Delete the supplementary group called badgroup   ![image](https://github.com/user-attachments/assets/0b842311-e63e-4dbf-ac16-3d6ab6a69c10)
+
+11. Create a folder called myteam in your home directory and change its permissions to read only for the owner.
 15. Log out and log in by another user
 16. Try to access (by cd command) the folder (myteam)
 17. Using the command Line
