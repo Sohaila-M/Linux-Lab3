@@ -68,5 +68,10 @@
 
 
 23. Create a hard link of /etc/passwd in /boot. Could you? Why?
-    ![image](https://github.com/user-attachments/assets/4bf55499-4742-44ee-9594-cf61533495ac)
+    ![image](https://github.com/user-attachments/assets/8fb7d60b-173e-433a-bbd7-0e8b22255b39)
+    No, You can't because : /etc/passwd is in the root (/) filesystem and /boot is often mounted as a separate filesystem 
+
+   Hard links cannot cross filesystem boundaries
+
+   ![image](https://github.com/user-attachments/assets/7a38f67a-b49c-4478-a898-24928432eb6d)
 
