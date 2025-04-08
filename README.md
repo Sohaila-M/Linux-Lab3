@@ -45,18 +45,28 @@
        Maximum (default) permission for file : 666
        Maximum (default) permission for directory : 777
     • Change your default permissions to be no permission to everyone then create a directory and a file to verify.
-16. Starting from your home directory, find all files that were modified in the last two day. ![image](https://github.com/user-attachments/assets/3e7688b6-9810-474e-b079-cacbdbb83406)
+15. Starting from your home directory, find all files that were modified in the last two day. ![image](https://github.com/user-attachments/assets/3e7688b6-9810-474e-b079-cacbdbb83406)
 
-17. Starting from /etc, find files owned by root user. ![image](https://github.com/user-attachments/assets/817ee949-ffd3-49b7-99c6-f55c87ef6f03)
+16. Starting from /etc, find files owned by root user. ![image](https://github.com/user-attachments/assets/817ee949-ffd3-49b7-99c6-f55c87ef6f03)
 
-18. Find all directories in your home directory. ![image](https://github.com/user-attachments/assets/8b2dc0e2-ac9c-4723-bf81-335bf7b895ac)
+17. Find all directories in your home directory. ![image](https://github.com/user-attachments/assets/8b2dc0e2-ac9c-4723-bf81-335bf7b895ac)
 
-19. Write a command to search for all files on the system that, its name is ".profile". ![image](https://github.com/user-attachments/assets/4e9e2367-f224-4199-bf5f-aa5268e4ef8f)
+18. Write a command to search for all files on the system that, its name is ".profile". ![image](https://github.com/user-attachments/assets/4e9e2367-f224-4199-bf5f-aa5268e4ef8f)
 
-20. Identify the file types of the following: /etc/passwd, /dev/pts/0, /etc, /dev/sda  ![image](https://github.com/user-attachments/assets/646c76d9-f451-49af-aee5-4597eeaf3505)
+19. Identify the file types of the following: /etc/passwd, /dev/pts/0, /etc, /dev/sda  ![image](https://github.com/user-attachments/assets/646c76d9-f451-49af-aee5-4597eeaf3505)
 
-21. List the inode numbers of /, /etc, /etc/hosts.  ![image](https://github.com/user-attachments/assets/91861b23-4ea2-46e4-9902-96fe3d17938a)
+20. List the inode numbers of /, /etc, /etc/hosts.  ![image](https://github.com/user-attachments/assets/91861b23-4ea2-46e4-9902-96fe3d17938a)
 
-22. Copy /etc/passwd to your home directory, use the commands diff and cmp, and Edit in the file you copied, and then use these commands again, and check the output.
-23. Create a symbolic link of /etc/passwd in /boot.
-24. Create a hard link of /etc/passwd in /boot. Could you? Why?
+21. Copy /etc/passwd to your home directory, use the commands diff and cmp, and Edit in the file you copied, and then use these commands again, and check the output.
+    ![image](https://github.com/user-attachments/assets/4196ea42-b8c3-49a2-89f4-f324e14efbed)
+    ![image](https://github.com/user-attachments/assets/d3a100ef-75e3-46dd-ae5c-714d4f0730e4)
+
+
+22. Create a symbolic link of /etc/passwd in /boot.
+    ![image](https://github.com/user-attachments/assets/09c8e639-8ab1-4d09-9031-4363ca4e73f2)
+    ![image](https://github.com/user-attachments/assets/0df7602d-87b1-4d65-af66-4249f5eeb251)
+
+
+23. Create a hard link of /etc/passwd in /boot. Could you? Why?
+    ![image](https://github.com/user-attachments/assets/4bf55499-4742-44ee-9594-cf61533495ac)
+
